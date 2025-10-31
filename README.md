@@ -6,8 +6,8 @@ Final integrated project for NGO Tracker (Team Project)
 | ----------- | ------- | ------------------------------------------------------------------------------------------- |
 | 301         | Shreya  | ngo_dashboard (NGO Dashboard & Project Management) + Repository Creation & Merge Management |
 | 332         | Lavanya | users (Authentication & Role Management)                                                    |
-| —           | Samidha  | ngo_app (Public Interface for NGO Listing)                                                  |
-| —           | Leisha | admin_panel (Admin Control & Website Styling)                                               |
+| 329         | Samidha | ngo_app (Public Interface for NGO Listing)                                                  |
+| 313         | Leisha  | admin_panel (Admin Control & Website Styling)                                               |
 
 🧭 Project Overview
 
@@ -38,10 +38,10 @@ The main objective is to create a transparent and engaging digital platform that
 
 | Member        | Django App    | Responsibilities                                                                                                                                          |
 | ------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Lavanya (332) | users         | Authentication system, login/signup, and user role management (NGO/Viewer)                                                                                |
-| Leisha        | ngo_app       | Public-facing pages for displaying NGOs and their projects                                                                                                |
-| Samidha       | admin_panel   | Admin management, Bootstrap styling, and layout design                                                                                                    |
-| Shreya (301)  | ngo_dashboard | NGO dashboard for adding/editing/deleting projects and managing NGO profiles; also created GitHub repo, handled branches, pull requests, and final merges |
+| Lavanya       | users         | Authentication system, login/signup, and user role management (NGO/Viewer)                                                                                |
+| Samidha       | ngo_app       | Public-facing pages for displaying NGOs and their projects                                                                                                |
+| Leisha        | admin_panel   | Admin management, Bootstrap styling, and layout design                                                                                                    |
+| Shreya        | ngo_dashboard | NGO dashboard for adding/editing/deleting projects and managing NGO profiles; also created GitHub repo, handled branches, pull requests, and final merges |
 
 
 🌿 Git Branch Plan
@@ -50,8 +50,8 @@ The main objective is to create a transparent and engaging digital platform that
 | main                  | Final merged and stable branch       | —          |
 | member1-users         | Authentication & role management     | Lavanya    |
 | member2-ngo-dashboard | NGO profile & project CRUD           | Shreya     |
-| member3-public-view   | Public NGO listings and detail pages | Leisha     |
-| member4-admin-style   | Admin and styling                    | Samidha    |
+| member3-public-view   | Public NGO listings and detail pages | Samidha    |
+| member4-admin-style   | Admin and styling                    | Leisha     |
 
 🧱 Development Workflow
 
@@ -61,9 +61,9 @@ Lavanya built the base Django project (ngo_tracker) and authentication system.
 
 Shreya developed the NGO Dashboard module, enabling NGOs to add, edit, and manage their projects and details.
 
-Leisha designed the public interface displaying NGO and project information.
+Samidha designed the public interface displaying NGO and project information.
 
-Samidha customized the admin panel and enhanced the visual styling using Bootstrap.
+Leisha customized the admin panel and enhanced the visual styling using Bootstrap.
 
 Each member worked in their own branch and created Pull Requests after testing.
 
