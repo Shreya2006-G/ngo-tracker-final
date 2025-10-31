@@ -6,8 +6,8 @@ Final integrated project for NGO Tracker (Team Project)
 | ----------- | ------- | ------------------------------------------------------------------------------------------- |
 | 301         | Shreya  | ngo_dashboard (NGO Dashboard & Project Management) + Repository Creation & Merge Management |
 | 332         | Lavanya | users (Authentication & Role Management)                                                    |
-| —           | Leisha  | ngo_app (Public Interface for NGO Listing)                                                  |
-| —           | Samidha | admin_panel (Admin Control & Website Styling)                                               |
+| —           | Samidha  | ngo_app (Public Interface for NGO Listing)                                                  |
+| —           | Leisha | admin_panel (Admin Control & Website Styling)                                               |
 
 🧭 Project Overview
 
