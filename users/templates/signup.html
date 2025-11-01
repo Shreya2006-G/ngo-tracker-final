@@ -1,17 +1,56 @@
-{% extends 'base.html' %}
-{% block title %}Sign Up{% endblock %}
-{% block content %}
-<div class="row justify-content-center">
-  <div class="col-md-5">
-    <h3 class="text-center mb-4">Create an Account</h3>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up - NGO Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #218838;
+        }
+        .error {
+            color: red;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Sign Up - NGO Tracker</h2>
+    
+    {% if form.errors %}
+        <div class="error">
+            Please correct the errors below.
+        </div>
+    {% endif %}
+    
     <form method="POST">
-      {% csrf_token %}
-      {{ form.as_p }}
-      <button type="submit" class="btn btn-primary w-100 mt-3">Sign Up</button>
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Sign Up</button>
     </form>
-    <p class="text-center mt-3">
-      Already have an account? <a href="{% url 'login' %}">Login here</a>
-    </p>
-  </div>
-</div>
-{% endblock %}
+    
+    <p>Already have an account? <a href="{% url 'login' %}">Login here</a></p>
+</body>
+</html>
