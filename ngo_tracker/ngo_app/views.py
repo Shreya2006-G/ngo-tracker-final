@@ -3,12 +3,10 @@ from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 
 def home(request):
-    return HttpResponse("Welcome to the NGO Tracker Website 🌍")
+    return render(request, 'ngo_app/home.html')
 
 @login_required
 def profile(request):
-    return render(request, 'profile.html')  # make sure to create this template
-
- 
+    return render(request, 'profile.html')
 
 
