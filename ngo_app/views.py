@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.shortcuts import render, get_object_or_404
 from django.db.models import Q
 from ngo_dashboard.models import NGOProfile, Project
@@ -43,3 +44,16 @@ def ngo_detail(request, ngo_id):
         'total_projects': projects.count()
     }
     return render(request, 'ngo_app/ngo_detail.html', context)
+=======
+# ngo_app/views.py
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("Welcome to the NGO Tracker Website 🌍")
+
+
+ 
+
+
+>>>>>>> origin/member1-lavanya
+
